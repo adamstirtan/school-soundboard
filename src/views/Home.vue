@@ -15,10 +15,10 @@
 
   </v-app-bar>
 
-  <v-container class="ma-4">
+  <v-container fluid class="mx-2">
 
     <v-row>
-      <h1>Songs</h1>
+      <h1>🎵 Songs</h1>
     </v-row>
 
     <v-row>
@@ -26,7 +26,7 @@
       <v-col class="pl-0"
         v-for="song in songs"
         :key="song.id"
-        cols="12" sm="6" md="4" lg="3">
+        cols="12" md="3" sm="4">
 
         <v-card :color="song.color">
 
@@ -46,7 +46,7 @@
     </v-row>
 
     <v-row>
-      <h1>Sounds</h1>
+      <h1>📢 Sounds</h1>
     </v-row>
 
     <v-row>
@@ -54,7 +54,7 @@
   <v-col class="pl-0"
     v-for="sound in sounds"
     :key="sound.id"
-    cols="12" sm="6" md="4" lg="3">
+    cols="12" md="2" sm="4">
 
     <v-card :color="sound.color">
 
@@ -74,7 +74,7 @@
   </v-row>
 
   </v-container>
-  
+
 </template>
 
 <script setup>
@@ -89,11 +89,19 @@ const songs = ref([
 ])
 
 const sounds = ref([
-  { id: 100, title: 'Attention', color: 'green', subtitle: 'Clap, clap, clap-clap-clap!' },
-  { id: 101, title: 'Fart', color: 'brown', subtitle: 'Blame someone else!' },
-  { id: 102, title: 'Drum roll', color: 'indigo', subtitle: 'And the winner is...' },
-  { id: 103, title: 'Applause', color: 'green', subtitle: 'Congratulations, you are awesome' },
-  { id: 104, title: 'Buzzer', color: 'red', subtitle: "Bzzzzzzzzt!" },
+  { id: 100, title: '😵 Roblox ooof!', color: 'grey', subtitle: "I'm dead" },
+  { id: 110, title: '✅ Cha-ching!', color: 'green', subtitle: "You did it!" },
+  { id: 101, title: '💨 Fart', color: 'brown', subtitle: 'Blame someone else!' },
+  { id: 102, title: '🥁 Drum roll', color: 'indigo', subtitle: 'And the winner is...' },
+  { id: 103, title: '👏 Applause', color: 'green', subtitle: 'Congratulations, you are awesome' },
+  { id: 111, title: '☠️ Game over', color: 'black', subtitle: "And you're out of continues" },
+  { id: 104, title: '🚨 Buzzer', color: 'red', subtitle: "Bzzzzzzzzt!" },
+  { id: 105, title: '👎 Boooo', color: 'black', subtitle: "No one likes that" },
+  { id: 112, title: '🚩 Stage complete!', color: 'blue', subtitle: "But the princess is in another castle :(" },
+  { id: 106, title: '😯 Dun-dun-dun!', color: 'orange', subtitle: "Add some dramatic flair" },
+  { id: 107, title: '🐄 Mooooo', color: 'white', subtitle: "What does the cow say?" },
+  { id: 108, title: '📯 Fanfare', color: 'pink', subtitle: "Celebrate the little things" },
+  { id: 109, title: '❌ Trombone slide', color: 'yellow', subtitle: "There's always next time" },
 ])
 
 const playingSound = ref(null)
@@ -130,3 +138,11 @@ onMounted(() => {
 })
 
 </script>
+
+<style scoped>
+
+  h1 {
+    margin-top: 1rem;
+  }
+
+</style>
