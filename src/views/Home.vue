@@ -74,6 +74,7 @@
   </v-row>
 
   </v-container>
+  
 </template>
 
 <script setup>
@@ -109,14 +110,11 @@ const playClicked = function(id) {
   }
 
   import(`@/assets/${id}.mp3`)
-      .then((soundModule) => {
-        audio.value.src = soundModule.default;
-        audio.value.play();
-        playingSound.value = id;
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+    .then((soundModule) => {
+      audio.value.src = soundModule.default
+      audio.value.play()
+      playingSound.value = id
+    })
 }
 
 const stopClicked = function() {
