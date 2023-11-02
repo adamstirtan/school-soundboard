@@ -90,7 +90,6 @@ const songs = ref([
 
 const sounds = ref([
   { id: 100, title: '😵 Roblox ooof!', color: 'grey', subtitle: "I'm dead" },
-  { id: 110, title: '✅ Cha-ching!', color: 'green', subtitle: "You did it!" },
   { id: 101, title: '💨 Fart', color: 'brown', subtitle: 'Blame someone else!' },
   { id: 102, title: '🥁 Drum roll', color: 'indigo', subtitle: 'And the winner is...' },
   { id: 103, title: '👏 Applause', color: 'green', subtitle: 'Congratulations, you are awesome' },
