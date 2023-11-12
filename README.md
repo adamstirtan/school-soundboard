@@ -4,7 +4,7 @@ This project is a fun and engaging tool designed for [Glenn Arbour Academy's](ht
 
 ## Demo
 
-https://gentle-sand-02323180f.4.azurestaticapps.net/
+[https://gaa-soundboard.monsterit.ca/](https://gaa-soundboard.monsterit.ca)
 
 ## Screenshot
 
