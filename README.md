@@ -1,3 +1,5 @@
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
+
 ## Overview
 
 This project is a fun and engaging tool designed for [Glenn Arbour Academy's](https://glennarbouracademy.com) gymnasium AV computer to enhance the morning announcements experience. It provides a collection of sound effects, both funny and useful, which can be played during morning gatherings. These sound effects add a touch of humor and excitement to your announcements, making the start of the day more enjoyable for students and teachers alike.
