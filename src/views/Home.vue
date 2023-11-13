@@ -8,7 +8,7 @@
     <v-btn
       v-if="playingSound"
       @click="$event => stopClicked()"
-      class="me-2 text-none"
+      class="me-2"
       prepend-icon="mdi-stop">
       Stop
     </v-btn>
@@ -82,10 +82,9 @@
 import { ref, onMounted } from 'vue'
 
 const songs = ref([
-  { id: 1, title: 'Oh Canada', color: 'red', subtitle: 'English' },
-  { id: 2, title: 'Oh Canada', color: 'red', subtitle: 'French' },
-  { id: 3, title: 'Happy Birthday', color: 'blue', subtitle: 'Music only' },
-  { id: 4, title: 'Happy Birthday', color: 'purple', subtitle: 'Music & lyrics' }
+  { id: 1, title: '🇨🇦 O Canada', color: 'red', subtitle: 'Classic, like maple syrup and hockey!' },
+  { id: 2, title: '🎤 O Canada (Acapella)', color: 'red', subtitle: 'Do-do-dooooo' },
+  { id: 3, title: '🥳 Happy Birthday', color: 'blue', subtitle: 'Sing-a-long' }
 ])
 
 const sounds = ref([
