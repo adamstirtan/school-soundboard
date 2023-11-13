@@ -1,7 +1,7 @@
 <template>
   <v-app-bar :elevation="1" color="primary">
 
-    <v-app-bar-nav-icon to="/" icon="mdi-speaker-wireless"></v-app-bar-nav-icon>
+    <v-app-bar-nav-icon to="/" icon="mdi-play-circle"></v-app-bar-nav-icon>
     <v-app-bar-title>GAA Gymnasium A/V</v-app-bar-title>
     <v-spacer></v-spacer>
     <v-btn v-if="playingSound" @click="$event => stopClicked()" class="me-2" prepend-icon="mdi-stop">
