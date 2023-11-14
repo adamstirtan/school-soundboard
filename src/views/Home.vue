@@ -63,7 +63,7 @@
     </v-row>
 
     <v-row justify="center">
-      <p class="mt-5">
+      <p class="my-5">
         <small>
           <v-icon icon="mdi-github" /> <a href="https://github.com/adamstirtan/gaa-gymnasium-av" target="_blank">https://github.com/adamstirtan/gaa-gymnasium-av</a>
         </small>
