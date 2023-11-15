@@ -80,13 +80,19 @@ import { ref, onMounted } from 'vue'
 const songs = ref([
   { id: 1, title: '🇨🇦 O Canada', color: 'red', subtitle: 'Classic, like maple syrup and hockey!' },
   { id: 2, title: '🎤 O Canada (Acapella)', color: 'red', subtitle: 'Do-do-dooooo' },
-  { id: 3, title: '🥳 Happy Birthday', color: 'blue', subtitle: 'Sing-a-long' }
+  { id: 3, title: '🥳 Happy Birthday', color: 'blue', subtitle: 'Sing-a-long' },
+  { id: 4, title: '🎄 We wish you a Merry Christmas', color: 'grey', subtitle: '...and a happy new year' },
+  { id: 5, title: '🤘 School\'s Out by Alice Cooper', color: 'purple', subtitle: 'No more pencils, no more books!' },
+  { id: 6, title: '🍺 Chug jug with you', color: 'green', subtitle: 'Just wiped out tomato town' },
 ])
 
 const sounds = ref([
+  { id: 114, title: '🤣 Badum-ching!', color: 'teal', subtitle: "Nice one bruh" },
   { id: 100, title: '😵 Roblox ooof!', color: 'grey', subtitle: "I'm dead" },
+  { id: 121, title: '🚨 Alert', color: 'yellow', subtitle: "Ahhhhh" },
   { id: 101, title: '💨 Fart', color: 'brown', subtitle: 'Blame someone else!' },
   { id: 102, title: '🥁 Drum roll', color: 'indigo', subtitle: 'And the winner is...' },
+  { id: 120, title: '👑 Rizz', color: 'blue', subtitle: "Did you seeeee that?" },
   { id: 103, title: '👏 Applause', color: 'green', subtitle: 'Congratulations, you are awesome' },
   { id: 111, title: '☠️ Game over', color: 'black', subtitle: "And you're out of continues" },
   { id: 104, title: '🚨 Buzzer', color: 'red', subtitle: "Bzzzzzzzzt!" },
@@ -96,6 +102,13 @@ const sounds = ref([
   { id: 107, title: '🐄 Mooooo', color: 'white', subtitle: "What does the cow say?" },
   { id: 108, title: '📯 Fanfare', color: 'pink', subtitle: "Celebrate the little things" },
   { id: 109, title: '❌ Trombone slide', color: 'yellow', subtitle: "There's always next time" },
+  { id: 110, title: '⏰ Alarm', color: 'red', subtitle: "Time to wake up!" },
+  { id: 113, title: '🤦‍♂️ Bruh', color: 'purple', subtitle: "One word is all you need" },
+  { id: 115, title: '🎉 Airhorn', color: 'amber', subtitle: "Make them look" },
+  { id: 116, title: '💰 Cash register', color: 'green', subtitle: "Dollar bills ya'll" },
+  { id: 117, title: '🚽 Skibidi toilet', color: 'brown', subtitle: "dop dop dop yes yes" },
+  { id: 118, title: '🏆 0.0001% winrate', color: 'purple', subtitle: "Show em' who u r" },
+  { id: 119, title: '💥 Emotional damage', color: 'orange', subtitle: "Hurts so bad" },
 ])
 
 const playingSound = ref(null)
