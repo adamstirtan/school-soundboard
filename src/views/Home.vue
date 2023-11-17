@@ -130,6 +130,11 @@ const playClicked = function (id) {
       audio.value.play()
       playingSound.value = id
     })
+  
+  gtag('event', 'play', {
+    'event_category': 'interaction',
+    'event_label': 'play'
+  })
 }
 
 const stopClicked = function () {
