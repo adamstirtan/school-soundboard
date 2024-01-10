@@ -38,6 +38,31 @@
     </v-row>
 
     <v-row>
+      <h1>👑 Principal for a day</h1>
+    </v-row>
+
+    <v-row>
+
+      <v-col class="pl-0" v-for="song in principalsongs" :key="song.id" cols="12" md="3" sm="4">
+
+        <v-card :color="song.color">
+
+          <v-card-title>{{ song.title }}</v-card-title>
+          <v-card-subtitle>{{ song.subtitle }}</v-card-subtitle>
+
+          <v-card-actions>
+            <v-btn @click="$event => playClicked(song.id)">
+              Play
+            </v-btn>
+          </v-card-actions>
+
+        </v-card>
+
+      </v-col>
+
+    </v-row>
+
+    <v-row>
       <h1>📢 Sounds</h1>
     </v-row>
 
@@ -84,6 +109,11 @@ const songs = ref([
   { id: 4, title: '🎄 We wish you a Merry Christmas', color: 'grey', subtitle: '...and a happy new year' },
   { id: 5, title: '🤘 School\'s Out by Alice Cooper', color: 'purple', subtitle: 'No more pencils, no more books!' },
   { id: 6, title: '🍺 Chug jug with you', color: 'green', subtitle: 'Just wiped out tomato town' },
+])
+
+const principalsongs = ref([
+  { id: 201, title: '👦🏼 Jack Stirtan', color: 'blue', subtitle: 'Principal of the day' },
+  { id: 200, title: '👧🏼 Olivia Stirtan', color: 'blue', subtitle: 'Vice principal of the day' }
 ])
 
 const sounds = ref([
