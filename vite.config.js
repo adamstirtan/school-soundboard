@@ -8,8 +8,8 @@ import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/gaa-gymnasium-av/' : '/',
+export default defineConfig({
+  base: '/gaa-gymnasium-av/',
   plugins: [
     vue({
       template: { transformAssetUrls }
@@ -47,5 +47,5 @@ export default defineConfig(({ mode }) => ({
   },
   server: {
     port: 3000,
-  },
-}));
+  }
+});
