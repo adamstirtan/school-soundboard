@@ -25,9 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          server: hosting.monsterit.ca
-          username: ${{ secrets.FTP_USER_NAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/
