@@ -1,5 +1,3 @@
-## Overview
-
 This project is a fun and engaging tool designed for a school's AV computer to enhance the morning announcements experience. It provides a collection of sound effects, both funny and useful, which can be played during morning gatherings. These sound effects add a touch of humor and excitement to your announcements, making the start of the day more enjoyable for students and teachers alike.
 
 ## Screenshot
