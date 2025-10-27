@@ -2,10 +2,6 @@
 
 This project is a fun and engaging tool designed for a school's AV computer to enhance the morning announcements experience. It provides a collection of sound effects, both funny and useful, which can be played during morning gatherings. These sound effects add a touch of humor and excitement to your announcements, making the start of the day more enjoyable for students and teachers alike.
 
-## Demo
-
-[https://adamstirtan.github.io/gaa-gymnasium-av/](https://adamstirtan.github.io/gaa-gymnasium-av/)
-
 ## Screenshot
 
 ![image](https://github.com/adamstirtan/gaa-gymnasium-av/assets/9989813/522d50e7-fb0d-4f4d-b985-47b2b8084986)
